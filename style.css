@@ -1,0 +1,70 @@
+body{
+  text-align: center;
+  font-family: Helvetica;
+  justify-content: flex-start;
+  background-color: #000000e0;
+}
+h1{
+  color: whitesmoke;
+  font-weight: bolder;
+}
+h2{
+  color: whitesmoke;
+  font-weight: bold;
+}
+h3{ /* avoir une police spéciale à l'intérieur du div.*/
+  font-size: 20;
+  color: whitesmoke;
+}
+p{ /* Paragraphes*/
+  color: white;
+  font-size: 19;
+  font-weight: lighter;
+  font-family: 'Akaya Telivigala', cursive;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover{
+  color: black;
+}
+.card-white{
+  background-color: #3c3c3c;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.sautdeligne{
+  margin:10px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+.list-inline i{
+  font-size: 60px;
+  color: whitesmoke;
+}
+.fab fa-instagram-square{}
+.list-inline i: hover{
+  color: black;
+}
+@media (max-width : 760px) {
+  .container{
+    width: 600px;
+  }
+}
